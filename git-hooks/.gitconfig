@@ -10,5 +10,9 @@
 	patterns = [A-Z0-9]{20}
 	patterns = (\"|')?(AWS|aws|Aws)?_?(SECRET|secret|Secret)?_?(ACCESS|access|Access)?_?(KEY|key|Key)(\"|')?\\s*(:|=>|=)\\s*(\"|')?[A-Za-z0-9/\\+=]{40}(\"|')?
 	patterns = (\"|')?(AWS|aws|Aws)?_?(ACCOUNT|account|Account)_?(ID|id|Id)?(\"|')?\\s*(:|=>|=)\\s*(\"|')?[0-9]{4}\\-?[0-9]{4}\\-?[0-9]{4}(\"|')?
+	patterns = '.*[pP][aA][sS][sS][wW][oO][rR][dD]\s*[:=]\s*.+'
+	patterns = '.*[sS][eE][cC][rR][eE][tT]\s*[:=]\s*.+'
+	patterns = '.*[aA][uU][tT][hH][oO][rR][iI][zZ][aA][tT][iI][oO][nN]\s*[:=]\s*.+'
+	patterns = '.*[tT][oO][kK][eE][nN]\s*[:=]\s*.+'
 	allowed = AKIAIOSFODNN7EXAMPLE
 	allowed = wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
